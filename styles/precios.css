@@ -1,0 +1,65 @@
+#precios {
+    height: 85%;
+}
+
+#precios #titulo h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: #2E2726;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    color: #fff;
+}
+
+.tarjeta .precio {
+    border: 2px solid #7fa2ea;
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    text-align: center;
+    line-height: 4em;
+    font-size: 2rem;
+}
+
+.tarjeta:nth-child(2) {
+    background-color: #7fa2ea;
+    border-radius: 0.5em;
+    padding: 2em 4em;
+    gap: 2em;
+}
+
+.tarjeta:nth-child(2) .precio {
+    border: 2px solid #2E2726;
+}
+
+.btn {
+    padding: 1em;
+    border: 2px solid #7fa2ea;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7fa2ea;
+}
+
+.tarjeta:nth-child(2) .btn {
+    border: 2px solid #2E2726;    
+}
+
+.tarjeta:nth-child(2) .btn:hover {
+    background-color: #2E2726;
+}

@@ -1,0 +1,30 @@
+#principal {
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#principal #texto {
+    width: 40%;
+    align-self: center;
+}
+
+#principal #texto p {
+    margin-top: 1.5em;
+    font-size: 0.8rem;
+    color: rgb(147, 147, 147);
+}
+
+#principal #img {
+    padding-bottom: 1em;
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+#principal #img img {
+    width: 80%;
+}
